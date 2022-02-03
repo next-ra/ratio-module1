@@ -1,0 +1,117 @@
+@import './vendor/fonts.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #4b5d68;
+  --second-color: #212353;
+
+  /* В зависимости от ширины экрана динамичски изменяется размер элементов, отступов, шрифтов */
+  --desktop-to-tablet: (100vw - 768px) / (1120 - 768);
+  --desktop-to-mobile: (100vw - 320px) / (1120 - 320);
+}
+
+body {
+  font: normal 400 16px/1.4 'Ubuntu', sans-serif;
+
+  color: var(--main-color);
+
+  min-height: 100vh;
+  max-width: 1600px;
+
+  background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
+  margin: 0 auto;
+}
+
+.page {
+  max-width: 1120px;
+
+  margin: 0 auto;
+  width: 95%;
+}
+
+.page__header {
+  margin: 60px auto 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: 121px;
+}
+
+.logo {
+  width: 49px;
+  height: 35px;
+}
+
+.navigation__list {
+  display: flex;
+  list-style: none;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 16px;
+
+  margin-right: 40px;
+  transition: all 0.3s linear;
+  position: relative;
+}
+
+.navigation__link:after {
+  content: attr(data-title);
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: transparent;
+  font-weight: 700;
+  transition: all 0.3s linear;
+}
+
+.navigation__link:hover {
+  color: transparent;
+}
+
+.navigation__link:hover:after {
+  color: var(--second-color);
+}
+
+@media screen and (max-width: 1120px) {
+  .header {
+    margin-top: calc(--desktop-to-mobile * (60 - 20) + 20px);
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header__logo {
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    align-self: flex-start;
+  }
+
+  .navigation__link {
+    margin: 0;
+  }
+  .navigation__list {
+    justify-content: space-between;
+  }
+  .navigation {
+    width: 100%;
+  }
+}
