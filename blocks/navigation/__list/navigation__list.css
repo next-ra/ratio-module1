@@ -1,0 +1,10 @@
+.navigation__list {
+  display: flex;
+  list-style: none;
+}
+
+@media screen and (max-width: 470px) {
+  .navigation__list {
+    justify-content: space-between;
+  }
+}

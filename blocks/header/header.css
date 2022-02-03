@@ -1,0 +1,12 @@
+@import './__logo/header__logo.css';
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 470px) {
+  .header {
+    flex-direction: column;
+  }
+}

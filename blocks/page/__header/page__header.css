@@ -1,0 +1,9 @@
+.page__header {
+  margin: 60px auto 0;
+}
+
+@media screen and (max-width: 1120px) {
+  .page__header {
+    margin-top: calc(--desktop-to-mobile * (60 - 20) + 20px);
+  }
+}

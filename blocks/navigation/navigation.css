@@ -1,0 +1,8 @@
+@import './__link/navigation__link.css';
+@import './__list/navigation__list.css';
+
+@media screen and (max-width: 470px) {
+  .navigation {
+    width: 100%;
+  }
+}
