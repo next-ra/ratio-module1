@@ -1,0 +1,16 @@
+.page__main {
+  margin-top: 143px;
+  position: relative;
+}
+
+@media screen and (max-width: 1120px) {
+  .page__main {
+    margin-top: calc((100vw - 470px) / (1120 - 470) * (143 - 50) + 50px);
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .page__main {
+    margin-top: 50px;
+  }
+}

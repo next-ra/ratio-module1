@@ -3,6 +3,7 @@
 @import './blocks/header/header.css';
 @import './blocks/logo/logo.css';
 @import './blocks/navigation/navigation.css';
+@import './blocks/main/main.css';
 
 * {
   margin: 0;
@@ -29,28 +30,4 @@ body {
 
   background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
   margin: 0 auto;
-}
-
-@media screen and (max-width: 470px) {
-  .header {
-    flex-direction: column;
-  }
-
-  .header__logo {
-    margin-bottom: 20px;
-  }
-
-  .logo {
-    align-self: flex-start;
-  }
-
-  .navigation__link {
-    margin: 0;
-  }
-  .navigation__list {
-    justify-content: space-between;
-  }
-  .navigation {
-    width: 100%;
-  }
 }

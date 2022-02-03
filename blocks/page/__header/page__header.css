@@ -4,6 +4,6 @@
 
 @media screen and (max-width: 1120px) {
   .page__header {
-    margin-top: calc(--desktop-to-mobile * (60 - 20) + 20px);
+    margin-top: calc(var(--desktop-to-mobile) * (60 - 20) + 20px);
   }
 }

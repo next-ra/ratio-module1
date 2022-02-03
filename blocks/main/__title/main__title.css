@@ -1,0 +1,6 @@
+.main__title {
+  font-size: clamp(40px, 4vw, 80px);
+  font-weight: 700;
+
+  max-width: 550px;
+}
