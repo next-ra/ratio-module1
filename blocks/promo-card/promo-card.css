@@ -1,0 +1,32 @@
+@import './__description/promo-card__description.css';
+@import './__image/promo-card__image.css';
+@import './__text-wrapper/promo-card__text-wrapper.css';
+@import './__title/promo-card__title.css';
+
+.promo-card {
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  min-height: 560px;
+}
+
+@media screen and (max-width: 1120px) {
+  .promo-card {
+    min-height: calc(var(--desktop-to-tablet) * (560 - 450) + 450px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .promo-card {
+    min-height: 450px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .promo-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,23 @@
+.promo-card__text-wrapper {
+  max-width: 475px;
+}
+
+@media screen and (max-width: 1120px) {
+  .promo-card__text-wrapper {
+    padding-right: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .promo-card__text-wrapper {
+    padding: 25px 25px 25px 0;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .promo-card__text-wrapper {
+    padding: 15px;
+
+    margin: 0;
+  }
+}

@@ -4,6 +4,7 @@
 @import './blocks/logo/logo.css';
 @import './blocks/navigation/navigation.css';
 @import './blocks/main/main.css';
+@import './blocks/promo-card/promo-card.css';
 
 * {
   margin: 0;
@@ -15,7 +16,7 @@
   --main-color: #4b5d68;
   --second-color: #212353;
 
-  /* В зависимости от ширины экрана динамичски изменяется размер элементов, отступов, шрифтов */
+  /* В зависимости от ширины экрана динамичeски изменяется размер элементов, отступов, шрифтов */
   --desktop-to-tablet: (100vw - 768px) / (1120 - 768);
   --desktop-to-mobile: (100vw - 320px) / (1120 - 320);
 }

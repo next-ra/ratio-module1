@@ -1,0 +1,31 @@
+.promo-card__image {
+  align-self: center;
+  object-fit: contain;
+  width: 50%;
+  max-height: 496px;
+  max-width: 469px;
+  margin-right: 75px;
+}
+
+@media screen and (max-width: 1120px) {
+  .promo-card__image {
+    margin-right: calc(var(--desktop-to-tablet) * 50);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .promo-card__image {
+    margin: 0;
+    /* так как у картинки центр смещен, чтобы примерно выровнять по центру сделал смещение влево */
+    transform: translateX(
+      calc((100vw - 470px) / (768 - 470) * (0 + 15) - 15px)
+    );
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .promo-card__image {
+    min-width: 300px;
+    transform: translateX(-15px);
+  }
+}

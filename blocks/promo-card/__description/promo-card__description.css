@@ -1,0 +1,22 @@
+.promo-card__description {
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1120px) {
+  .promo-card__description {
+    margin-top: calc(var(--desktop-to-tablet) * (40 - 30) + 30px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .promo-card__description {
+    margin-top: calc((100vw - 470px) / (768 - 470) * (30 - 10) + 10px);
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .promo-card__description {
+    margin-top: 10px;
+  }
+}

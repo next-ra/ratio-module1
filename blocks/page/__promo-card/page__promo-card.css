@@ -1,0 +1,21 @@
+.page__promo-card {
+  margin-top: 199px;
+}
+
+@media screen and (max-width: 1120px) {
+  .page__promo-card {
+    margin-top: calc(var(--desktop-to-tablet) * (199 - 150) + 150px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page__promo-card {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .page__promo-card {
+    margin-top: 50px;
+  }
+}

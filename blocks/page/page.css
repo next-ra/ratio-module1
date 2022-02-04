@@ -1,8 +1,9 @@
 @import './__header/page__header.css';
 @import './__main/page__main.css';
+@import './__promo-card/page__promo-card.css';
+
 .page {
   max-width: 1120px;
-
   margin: 0 auto;
   width: 95%;
 }

@@ -1,0 +1,10 @@
+.promo-card__title {
+  font: normal 700 40px/1.2 Helvetica;
+  font-size: clamp(24px, 4vw, 40px);
+}
+
+@media screen and (max-width: 470px) {
+  .promo-card__title {
+    margin: 0;
+  }
+}
