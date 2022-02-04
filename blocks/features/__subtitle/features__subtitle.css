@@ -1,0 +1,11 @@
+.features__subtitle {
+  font-size: 18px;
+  max-width: 584px;
+  margin: 50px auto 0;
+}
+
+@media screen and (max-width: 1120px) {
+  .features__subtitle {
+    margin-top: calc(var(--desktop-to-mobile) * (50 - 10) + 10px);
+  }
+}

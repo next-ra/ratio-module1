@@ -1,0 +1,9 @@
+.page__features {
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 1120px) {
+  .page__features {
+    margin-top: calc(var(--desktop-to-mobile) * (150 - 50) + 50px);
+  }
+}

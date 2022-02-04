@@ -1,0 +1,31 @@
+.feature-card__description {
+  margin: 20px 50px 0 0;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 1120px) {
+  .feature-card__description {
+    margin-top: calc(var(--desktop-to-tablet) * (20 - 10) + 10px);
+    margin-right: calc(var(--desktop-to-tablet) * (50 - 10) + 10px);
+
+    font-size: calc(var(--desktop-to-tablet) * (16 - 14) + 14px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .feature-card__description {
+    margin-top: 20px;
+    margin-right: 0;
+
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .feature-card__description {
+    margin-top: 20px;
+    margin-right: 0;
+
+    font-size: 16px;
+  }
+}

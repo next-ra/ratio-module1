@@ -1,0 +1,50 @@
+@import './__description/feature-card__description.css';
+@import './__image-box/feature-card__image-box.css';
+@import './__image/feature-card__image.css';
+@import './__link-icon/feature-card__link-icon.css';
+@import './__link/feature-card__link.css';
+@import './__text-wrapper/feature-card__text-wrapper.css';
+@import './__title/feature-card__title.css';
+
+.feature-card {
+  max-height: 358px;
+  height: 100vh;
+
+  position: relative;
+
+  width: 100%;
+  max-width: 544px;
+
+  border-radius: 0 50px 50px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1120px) {
+  .feature-card {
+    max-height: calc(var(--desktop-to-tablet) * (358 - 250) + 250px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .feature-card {
+    max-height: 358px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .feature-card {
+    max-height: 450px;
+    height: 100vh;
+
+    position: relative;
+
+    border-radius: 0 50px 50px 0;
+    justify-content: center;
+    align-items: center;
+  }
+}

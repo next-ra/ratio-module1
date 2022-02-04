@@ -1,0 +1,28 @@
+.feature-card__title {
+  margin-top: 49px;
+  font: normal 400 24px/31px Helvetica;
+
+  color: var(--second-color);
+}
+
+@media screen and (max-width: 1120px) {
+  .feature-card__title {
+    margin-top: calc(var(--desktop-to-tablet) * (49 - 10) + 10px);
+    font-size: calc(var(--desktop-to-tablet) * (24 - 21) + 21px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .feature-card__title {
+    margin-top: 50px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .feature-card__title {
+    margin-top: 180px;
+    font-size: 24px;
+    text-align: center;
+  }
+}

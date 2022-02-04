@@ -1,0 +1,7 @@
+@import './__cards-box/features__cards-box.css';
+@import './__subtitle/features__subtitle.css';
+@import './__title/features__title.css';
+
+.features {
+  text-align: center;
+}

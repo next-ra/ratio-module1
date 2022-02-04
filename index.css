@@ -5,6 +5,8 @@
 @import './blocks/navigation/navigation.css';
 @import './blocks/main/main.css';
 @import './blocks/promo-card/promo-card.css';
+@import './blocks/feature-card/feature-card.css';
+@import './blocks/features/features.css';
 
 * {
   margin: 0;
