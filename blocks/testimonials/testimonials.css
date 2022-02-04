@@ -1,0 +1,16 @@
+@import './__title/testimonials__title.css';
+
+.testimonials {
+  max-width: 1120px;
+  width: 100%;
+  background-color: #9c69e2;
+  border-radius: 50px;
+
+  overflow: hidden;
+}
+
+@media screen and (max-width: 470px) {
+  .testimonials {
+    text-align: center;
+  }
+}

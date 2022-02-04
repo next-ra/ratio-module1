@@ -1,0 +1,17 @@
+.slider__text-wrapper {
+  padding: 85px;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 1120px) {
+  .slider__text-wrapper {
+    padding: calc(var(--desktop-to-tablet) * (85 - 50) + 50px);
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .slider__text-wrapper {
+    padding: 0;
+  }
+}

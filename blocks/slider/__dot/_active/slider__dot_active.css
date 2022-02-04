@@ -1,0 +1,8 @@
+.slider__dot_active {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #f063b8;
+  cursor: pointer;
+}

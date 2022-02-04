@@ -1,0 +1,9 @@
+.slider__arrows {
+  margin-right: 73px;
+}
+
+@media screen and (max-width: 768px) {
+  .slider__arrows {
+    margin-right: 30px;
+  }
+}

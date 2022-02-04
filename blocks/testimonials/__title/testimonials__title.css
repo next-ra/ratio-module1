@@ -1,0 +1,26 @@
+.testimonials__title {
+  font: normal 700 40px/1.2 Helvetica;
+  font-size: clamp(30px, 4vw, 40px);
+
+  margin-left: 93px;
+  margin-top: 113px;
+
+  color: #fff;
+}
+
+@media screen and (max-width: 1120px) {
+  .testimonials__title {
+    margin-top: calc(var(--desktop-to-tablet) * (113 - 50) + 50px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .testimonials__title {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .testimonials__title {
+    margin-left: 0;
+  }
+}

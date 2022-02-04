@@ -1,0 +1,14 @@
+.slider__comment {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 470px) {
+  .testimonials {
+    text-align: center;
+  }
+
+  .slider__comment {
+    text-align: left;
+  }
+}

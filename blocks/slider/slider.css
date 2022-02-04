@@ -1,0 +1,35 @@
+@import './__card/slider__card.css';
+@import './__avatar/slider__avatar.css';
+@import './__text-wrapper/slider__text-wrapper.css';
+@import './__title/slider__title.css';
+@import './__profession/slider__profession.css';
+@import './__comment/slider__comment.css';
+@import './__arrow/slider__arrow.css';
+@import './__arrows/slider__arrows.css';
+@import './__navigation/slider__navigation.css';
+@import './__dots/slider__dots.css';
+@import './__dot/slider__dot.css';
+@import './__dot/_active/slider__dot_active.css';
+
+.slider {
+  width: 100%;
+
+  margin: 0 auto;
+  margin-top: 88px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1120px) {
+  .slider {
+    margin-top: calc(var(--desktop-to-tablet) * (88 - 40) + 40px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider {
+    margin-top: 40px;
+  }
+}

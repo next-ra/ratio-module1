@@ -1,0 +1,10 @@
+.slider__title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 470px) {
+  .slider__title {
+    margin-top: 10px;
+  }
+}

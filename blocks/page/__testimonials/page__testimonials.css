@@ -1,0 +1,9 @@
+.page__testimonials {
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 1120px) {
+  .page__testimonials {
+    margin-top: calc(var(--desktop-to-mobile) * (150 - 50) + 50px);
+  }
+}

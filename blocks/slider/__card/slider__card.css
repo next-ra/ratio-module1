@@ -1,0 +1,37 @@
+.slider__card {
+  display: flex;
+  flex-shrink: 0;
+
+  background: #fff;
+  /* тень из макета */
+  /* box-shadow: 0px 20px 0px 0px rgb(122 66 199); */
+
+  /* добавил размытия для тени, 
+  в любом случае вернуть можно всегда на ту что в макете :D  */
+  box-shadow: 0px 20px 20px 0px rgb(122 66 199);
+
+  border-radius: 20px;
+
+  width: 60%;
+  min-width: 500px;
+  margin: 0 20px;
+}
+
+.first-slide,
+.last-slide {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1120px) {
+  .slider__card {
+    min-width: calc(var(--desktop-to-tablet) * (520 - 450) + 450px);
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .slider__card {
+    flex-direction: column;
+    min-width: calc((100vw - 320px) / (470 - 320) * (400 - 280) + 280px);
+    padding: 20px;
+  }
+}

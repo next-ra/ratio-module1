@@ -1,0 +1,9 @@
+.slider__arrow {
+  cursor: pointer;
+  margin-right: 10px;
+  transition: all 0.3s linear;
+}
+
+.slider__arrow:hover {
+  transform: scale(1.2);
+}

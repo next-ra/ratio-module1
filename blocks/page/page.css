@@ -2,7 +2,7 @@
 @import './__main/page__main.css';
 @import './__promo-card/page__promo-card.css';
 @import './__features/page__features.css';
-
+@import './__testimonials/page__testimonials.css';
 .page {
   max-width: 1120px;
   margin: 0 auto;
