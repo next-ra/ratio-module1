@@ -1,21 +1,25 @@
 .main__button {
   margin-top: 50px;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   background-color: #9c69e2;
   color: #fff;
 
   width: 170px;
   height: 60px;
+
   font: normal 700 16px/1.1 'Ubuntu', sans-serif;
   font-size: clamp(14px, 4vw, 18px);
+  text-decoration: none;
 
   border-radius: 50px;
   outline: none;
   border: none;
 
   transition: all 0.3s linear;
-
-  cursor: pointer;
 }
 
 .main__button:hover {

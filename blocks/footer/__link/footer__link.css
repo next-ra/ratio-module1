@@ -20,3 +20,9 @@
     width: 40px;
   }
 }
+
+@media screen and (max-width: 470px) {
+  .footer__link {
+    margin-right: 12px;
+  }
+}

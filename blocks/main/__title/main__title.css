@@ -1,6 +1,18 @@
 .main__title {
-  font-size: clamp(40px, 4vw, 80px);
+  font-size: clamp(40px, 5vw, 80px);
   font-weight: 700;
 
-  max-width: 550px;
+  max-width: 52%;
+}
+
+@media screen and (max-width: 768px) {
+  .main__title {
+    max-width: 66%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .main__title {
+    max-width: 100%;
+  }
 }
