@@ -7,6 +7,10 @@
       name="description"
       content="Data Warehouse is a data storage area that has been tested for security, so you can store your data here safely but not be afraid of being stolen by others."
     />
+    <meta
+      name="keywords"
+      content="warehouse, save, data, security, storage, area"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Warehouse - Save your data storage here.</title>
     <link rel="stylesheet" href="./index.css" />
@@ -17,7 +21,10 @@
       <!-- Здесь и далее вся внешняя геометрия и позиционирование 
         задаются через родительский блок page__header, page__footer  и т.д -->
       <header class="header page__header">
-        <img src="./images/Logo.png" alt="logo" class="logo header__logo" />
+        <a href="#"
+          ><img src="./images/Logo.png" alt="logo" class="logo header__logo"
+        /></a>
+
         <nav class="navigation">
           <ul class="navigation__list">
             <li class="navigation__item">
@@ -52,7 +59,9 @@
           security, so you can store your data here safely but not be afraid of
           being stolen by others.
         </p>
-        <button class="main__button">Learn more</button>
+        <a href="#features"
+          ><button href="#features" class="main__button">Learn more</button></a
+        >
       </section>
 
       <section class="promo-card page__promo-card">
@@ -287,7 +296,7 @@
       </section>
 
       <div class="page__separator"></div>
-      <footer class="footer page__footer">
+      <footer class="footer page__footer" id="footer">
         <div class="footer__company-info">
           <div class="footer__wrapper">
             <a href="#" class="footer__logo-link"
