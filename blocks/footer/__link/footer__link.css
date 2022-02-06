@@ -1,0 +1,22 @@
+.footer__link {
+  height: 60px;
+  width: 60px;
+
+  display: block;
+
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer__link {
+    height: calc(var(--desktop-to-tablet) * (60 - 40) + 40px);
+    width: calc(var(--desktop-to-tablet) * (60 - 40) + 40px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__link {
+    height: 40px;
+    width: 40px;
+  }
+}

@@ -1,0 +1,18 @@
+.footer__link-icon {
+  width: 60px;
+  height: 60px;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer__link-icon {
+    width: calc(var(--desktop-to-tablet) * (60 - 40) + 40px);
+    height: calc(var(--desktop-to-tablet) * (60 - 40) + 40px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__link-icon {
+    width: 40px;
+    height: 40px;
+  }
+}

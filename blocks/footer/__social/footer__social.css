@@ -1,0 +1,16 @@
+.footer__social {
+  padding-top: 15px;
+  margin-right: 38px;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer__social {
+    margin-right: calc(var(--desktop-to-tablet) * 38);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__social {
+    margin-right: 0;
+  }
+}

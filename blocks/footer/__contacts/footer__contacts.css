@@ -1,0 +1,9 @@
+.footer__contacts {
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 1120px) {
+  .footer__contacts {
+    margin-top: calc(var(--desktop-to-mobile) * (25 - 15) + 15px);
+  }
+}

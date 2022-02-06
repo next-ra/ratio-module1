@@ -1,0 +1,27 @@
+.page__separator {
+  height: 1px;
+  border: 0;
+  position: relative;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.page__separator::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 50%;
+  height: 2px;
+  opacity: 0.2;
+  width: calc(100vw - 17px);
+  background-color: #9c69e2;
+  max-width: 1600px;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1120px) {
+  .page__separator {
+    margin-top: calc(var(--desktop-to-mobile) * (150 - 50) + 50px);
+  }
+}

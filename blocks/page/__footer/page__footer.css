@@ -1,0 +1,12 @@
+.page__footer {
+  margin-top: 160px;
+  margin-bottom: 65px;
+  position: relative;
+}
+
+@media screen and (max-width: 1120px) {
+  .page__footer {
+    margin-top: calc(var(--desktop-to-mobile) * (160 - 40) + 40px);
+    margin-bottom: calc(var(--desktop-to-mobile) * (65 - 30) + 30px);
+  }
+}

@@ -1,0 +1,24 @@
+@import './__address/footer__address.css';
+@import './__company-info/__company-info.css';
+@import './__company-name/footer__company-name.css';
+@import './__contacts/footer__contacts.css';
+@import './__copyright/footer__copyright.css';
+@import './__link-icon/footer__link-icon.css';
+@import './__link-item/footer__link-item.css';
+@import './__link/footer__link.css';
+@import './__links/footer__links.css';
+@import './__logo/footer__logo.css';
+@import './__social-title/footer__social-title.css';
+@import './__social/footer__social.css';
+@import './__wrapper/footer__wrapper.css';
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 470px) {
+  .footer {
+    flex-direction: column;
+  }
+}

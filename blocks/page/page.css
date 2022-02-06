@@ -3,6 +3,9 @@
 @import './__promo-card/page__promo-card.css';
 @import './__features/page__features.css';
 @import './__testimonials/page__testimonials.css';
+@import './__separator/page__separator.css';
+@import './__footer/page__footer.css';
+
 .page {
   max-width: 1120px;
   margin: 0 auto;

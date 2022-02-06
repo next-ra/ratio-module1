@@ -9,6 +9,7 @@
 @import './blocks/features/features.css';
 @import './blocks/testimonials/testimonials.css';
 @import './blocks/slider/slider.css';
+@import './blocks/footer/footer.css';
 
 * {
   margin: 0;
@@ -35,4 +36,5 @@ body {
 
   background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
   margin: 0 auto;
+  position: relative;
 }
