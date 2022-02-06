@@ -9,9 +9,9 @@
   max-width: 885px;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1380px) {
   .main__image {
-    right: calc((100vw - 1120px) / (1350 - 1120) * -92);
+    right: calc((100vw - 1120px) / (1380 - 1120) * -100);
   }
 }
 
