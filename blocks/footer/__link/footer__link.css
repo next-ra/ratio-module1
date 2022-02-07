@@ -5,6 +5,12 @@
   display: block;
 
   border-radius: 50%;
+
+  transition: all 0.3s linear;
+}
+
+.footer__link:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 1120px) {
