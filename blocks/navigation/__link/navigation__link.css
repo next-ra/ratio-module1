@@ -10,9 +10,9 @@
 
 .navigation__link:after {
   content: attr(data-title);
-  font-size: 14px;
+  font-size: 16px;
   position: absolute;
-  top: 0;
+  top: -2px;
   left: 0;
   color: transparent;
   font-weight: 700;
