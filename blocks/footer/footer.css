@@ -11,6 +11,7 @@
 @import './__social-title/footer__social-title.css';
 @import './__social/footer__social.css';
 @import './__wrapper/footer__wrapper.css';
+@import './__contact/__footer__contact.css';
 
 .footer {
   display: flex;

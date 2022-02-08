@@ -1,5 +1,6 @@
 .footer__contacts {
   margin-top: 25px;
+  max-width: 190px;
 }
 
 @media screen and (max-width: 1120px) {
