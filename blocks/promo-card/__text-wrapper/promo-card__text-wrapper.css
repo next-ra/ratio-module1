@@ -5,6 +5,7 @@
 @media screen and (max-width: 1120px) {
   .promo-card__text-wrapper {
     padding-right: 25px;
+    max-width: 50%;
   }
 }
 
@@ -17,7 +18,7 @@
 @media screen and (max-width: 470px) {
   .promo-card__text-wrapper {
     padding: 15px 15px 25px;
-
+    max-width: 100%;
     margin: 0;
   }
 }

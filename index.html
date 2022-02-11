@@ -36,7 +36,7 @@
         задаются через родительский блок page__header, page__footer  и т.д -->
       <header class="header page__header">
         <a href="#" class="logo header__logo"
-          ><img src="./images/Logo.png" alt="company logo"
+          ><img src="./blocks/logo/images/Logo.png" alt="company logo"
         /></a>
 
         <nav class="navigation">
@@ -64,10 +64,10 @@
         <picture>
           <source
             media="(max-width: 470px)"
-            srcset="./images/mobile-main.png"
+            srcset="./blocks/main/images/main-mobile.png"
           />
           <img
-            src="./images/main.png"
+            src="./blocks/main/images/main.png"
             alt="women counting numbers"
             class="main__image"
           />
@@ -83,11 +83,18 @@
       </section>
 
       <section class="promo-card page__promo-card" id="promo">
-        <img
-          src="./images/main__card.png"
-          alt="some abstract girl"
-          class="promo-card__image"
-        />
+        <picture>
+          <source
+            media="(max-width: 470px)"
+            srcset="./blocks/promo-card/images/promo-mobile.png"
+          />
+          <img
+            src="./blocks/promo-card/images/promo.png"
+            alt="some abstract girl"
+            class="promo-card__image"
+          />
+        </picture>
+
         <div class="promo-card__text-wrapper">
           <h2 class="promo-card__title">
             We are a high-level data storage bank
@@ -114,9 +121,9 @@
               <picture>
                 <source
                   media="(max-width: 470px)"
-                  srcset="./images/feature-mobile1.png" />
+                  srcset="./blocks/feature-card/images/feature-mobile1.png" />
                 <img
-                  src="./images/feature1.png"
+                  src="./blocks/feature-card/images/feature1.png"
                   alt="man with magnifying glass"
                   class="feature-card__image"
               /></picture>
@@ -135,7 +142,7 @@
                 >Learn more
                 <img
                   class="feature-card__link-icon"
-                  src="./images/arrow.png"
+                  src="./blocks/feature-card/images/arrow.png"
                   alt="arrow right"
               /></a>
             </div>
@@ -146,9 +153,9 @@
               <picture>
                 <source
                   media="(max-width: 470px)"
-                  srcset="./images/feature-mobile2.png" />
+                  srcset="./blocks/feature-card/images/feature-mobile2.png" />
                 <img
-                  src="./images/feature2.png"
+                  src="./blocks/feature-card/images/feature2.png"
                   alt="girl with laptop"
                   class="feature-card__image"
               /></picture>
@@ -166,7 +173,7 @@
                 >Learn more
                 <img
                   class="feature-card__link-icon"
-                  src="./images/arrow.png"
+                  src="./blocks/feature-card/images/arrow.png"
                   alt="arrow right"
               /></a>
             </div>
@@ -177,9 +184,9 @@
               <picture>
                 <source
                   media="(max-width: 470px)"
-                  srcset="./images/feature-mobile3.png" />
+                  srcset="./blocks/feature-card/images/feature-mobile3.png" />
                 <img
-                  src="./images/feature3.png"
+                  src="./blocks/feature-card/images/feature3.png"
                   alt="printer with large paper inside it"
                   class="feature-card__image"
               /></picture>
@@ -196,7 +203,7 @@
                 >Learn more
                 <img
                   class="feature-card__link-icon"
-                  src="./images/arrow.png"
+                  src="./blocks/feature-card/images/arrow.png"
                   alt="arrow right"
               /></a>
             </div>
@@ -207,9 +214,9 @@
               <picture>
                 <source
                   media="(max-width: 470px)"
-                  srcset="./images/feature-mobile4.png" />
+                  srcset="./blocks/feature-card/images/feature-mobile4.png" />
                 <img
-                  src="./images/feature4.png"
+                  src="./blocks/feature-card/images/feature4.png"
                   alt="girl opens the lock"
                   class="feature-card__image"
               /></picture>
@@ -228,7 +235,7 @@
                 >Learn more
                 <img
                   class="feature-card__link-icon"
-                  src="./images/arrow.png"
+                  src="./blocks/feature-card/images/arrow.png"
                   alt="arrow right"
               /></a>
             </div>
@@ -243,7 +250,7 @@
           <div class="slider__card">
             <img
               class="slider__avatar"
-              src="./images/photo3.png"
+              src="./blocks/slider/images/avatar3.png"
               alt="user avatar"
             />
             <div class="slider__text-wrapper">
@@ -260,7 +267,7 @@
           <div class="slider__card">
             <img
               class="slider__avatar"
-              src="./images/photo1.png"
+              src="./blocks/slider/images/avatar1.png"
               alt="user avatar"
             />
             <div class="slider__text-wrapper">
@@ -274,16 +281,16 @@
             </div>
           </div>
 
-          <div class="slider__card" id="third__slide">
+          <div class="slider__card">
             <img
-              class="slider__avatar last-slide"
-              src="./images/photo2.png"
+              class="slider__avatar"
+              src="./blocks/slider/images/avatar2.png"
               alt="user avatar"
             />
             <div class="slider__text-wrapper">
               <h4 class="slider__title">John Fang</h4>
               <p class="slider__profession">wordfaang.com</p>
-              <p class="slider__comment">
+              <p class="slider__comment last-slide">
                 Suspendisse ultrices at diam lectus nullam. Nisl, sagittis
                 viverra enim erat tortor ultricies massa turpis. Arcu pulvinar
                 aenean nam laoreet nulla.
@@ -302,12 +309,12 @@
           <div class="slider__arrows">
             <img
               class="slider__arrow"
-              src="./images/slider-arrow-left.png"
+              src="./blocks/slider/images/slider-arrow-left.png"
               alt="arrow left"
             />
             <img
               class="slider__arrow"
-              src="./images/slider-arrow-right.png"
+              src="./blocks/slider/images/slider-arrow-right.png"
               alt="arrow right"
             />
           </div>
@@ -321,7 +328,7 @@
             <a href="#" class="footer__logo-link"
               ><img
                 class="logo footer__logo"
-                src="./images/Logo.png"
+                src="./blocks/logo/images/Logo.png"
                 alt="company logo"
               />
             </a>
@@ -359,7 +366,7 @@
               >
                 <img
                   class="footer__link-icon"
-                  src="./images/telegram.png"
+                  src="./blocks/footer/images/tg-purple.png"
                   alt="telegram icon"
               /></a>
             </li>
@@ -373,7 +380,7 @@
               >
                 <img
                   class="footer__link-icon"
-                  src="./images/facebook.png"
+                  src="./blocks/footer/images/fb-purple.png"
                   alt="facebook icon"
               /></a>
             </li>
@@ -387,7 +394,7 @@
               >
                 <img
                   class="footer__link-icon"
-                  src="./images/twitter.png"
+                  src="./blocks/footer/images/t-purple.png"
                   alt="twitter icon"
               /></a>
             </li>

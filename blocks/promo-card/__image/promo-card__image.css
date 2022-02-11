@@ -1,7 +1,7 @@
 .promo-card__image {
   align-self: center;
   object-fit: contain;
-  width: 50%;
+  width: 100%;
   max-height: 496px;
   max-width: 469px;
   margin-right: 75px;
