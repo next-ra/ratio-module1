@@ -14,7 +14,7 @@
 }
 
 .feature-card__link:hover {
-  color: #9f6ee3;
+  color: var(--violet-color);
 }
 
 .feature-card__link:hover > .feature-card__link-icon {

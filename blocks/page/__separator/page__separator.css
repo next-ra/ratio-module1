@@ -15,7 +15,7 @@
   height: 2px;
   opacity: 0.2;
   width: calc(100vw - 17px);
-  background-color: #9c69e2;
+  background-color: var(--violet-color);
   max-width: 1600px;
   transform: translateX(-50%);
 }

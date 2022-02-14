@@ -3,7 +3,7 @@
   height: 5px;
   margin-right: 10px;
   border-radius: 50%;
-  background: #fff;
+  background: var(--white-color);
   cursor: pointer;
   transition: all 0.3s linear;
 }

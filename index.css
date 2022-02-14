@@ -20,8 +20,13 @@
 :root {
   --main-color: #4b5d68;
   --second-color: #212353;
+  --violet-color: #9f6ee3;
+  --white-color: #fff;
 
   /* В зависимости от ширины экрана динамичeски изменяется размер элементов, отступов, шрифтов */
+  /* calc(100vw - 768px) / (1120 - 768) * (100 - 50) + 50px */
+  /* при разрешении 1120px размер элемента будет 100, 
+  при разрешении 768px размер элемента будет 50px а между двумя этими значениями будет динамически меняться */
   --desktop-to-tablet: (100vw - 768px) / (1120 - 768);
   --desktop-to-mobile: (100vw - 320px) / (1120 - 320);
 }
@@ -34,7 +39,7 @@ body {
   min-height: 100vh;
   max-width: 1600px;
 
-  background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
+  background: linear-gradient(180deg, #f6fafd 0%, var(--white-color) fff 19.4%);
   margin: 0 auto;
   position: relative;
 }

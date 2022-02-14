@@ -7,8 +7,8 @@
 
   position: relative;
 
-  background-color: #9c69e2;
-  color: #fff;
+  background-color: var(--violet-color);
+  color: var(--white-color);
 
   width: 170px;
   height: 60px;
@@ -25,15 +25,15 @@
 }
 
 .main__button:hover {
-  background-color: #fff;
-  color: #9c69e2;
+  background-color: var(--white-color);
+  color: var(--violet-color);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
-  border: 3px solid #9c69e2;
+  border: 3px solid var(--violet-color);
 }
 
 .main__button::after {
   content: '';
-  border: 7px solid #9c69e2;
+  border: 7px solid var(--violet-color);
   border-radius: 100%;
 
   position: absolute;

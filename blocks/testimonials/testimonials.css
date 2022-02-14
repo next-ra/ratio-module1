@@ -3,7 +3,7 @@
 .testimonials {
   max-width: 1120px;
   width: 100%;
-  background-color: #9c69e2;
+  background-color: var(--violet-color);
   border-radius: 50px;
 
   overflow: hidden;
