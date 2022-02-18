@@ -6,6 +6,9 @@
   width: 50%;
   position: relative;
   height: 100%;
+  /*
+  ** TODO: не оставляем мусорные комментарии в коде
+  */
   /* border: 0.1px solid red; */
 }
 

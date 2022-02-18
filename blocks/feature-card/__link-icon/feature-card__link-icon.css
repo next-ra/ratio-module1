@@ -1,4 +1,7 @@
 .feature-card__link-icon {
   margin-left: 20px;
+  /*
+  ** TODO: при нулевых значениях пишем '.3s'
+  */
   transition: all 0.3s linear;
 }

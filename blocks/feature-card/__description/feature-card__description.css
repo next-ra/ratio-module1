@@ -5,6 +5,9 @@
 
 @media screen and (max-width: 1120px) {
   .feature-card__description {
+    /*
+    ** TODO: большие формулы сильно влияют на производительность, избегайте их использования
+    */
     margin-top: calc(var(--desktop-to-tablet) * (20 - 10) + 10px);
     margin-right: calc(var(--desktop-to-tablet) * (50 - 10) + 10px);
 
