@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="description"
-      content="Data Warehouse is a data storage area that has been tested for security, 
+      content="Data Warehouse is a data storage area that has been tested for security,
       so you can store your data here safely but not be afraid of being stolen by others."
     />
     <meta
@@ -28,13 +28,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Warehouse - Save your data storage here.</title>
     <link rel="stylesheet" href="./index.css" />
+    <!-- TODO: favicon использован неправильно. Вот пример - '<link rel="icon" type="image/x-icon" href="/images/favicon.ico">' -->
     <link rel="icon" type="image/png" sizes="16x16" href="./images/Logo.png" />
   </head>
   <body>
     <div class="page">
-      <!-- Здесь и далее вся внешняя геометрия и позиционирование 
+      <!-- Здесь и далее вся внешняя геометрия и позиционирование
         задаются через родительский блок page__header, page__footer  и т.д -->
       <header class="header page__header">
+        <!-- TODO: внимательнее к переносам, соблюдаем чистоту кода -->
         <a href="#" class="logo header__logo"
           ><img src="./blocks/logo/images/Logo.png" alt="company logo"
         /></a>
@@ -62,6 +64,7 @@
 
       <section class="main page__main">
         <picture>
+          <!-- TODO: медиа запросы пишем в CSS -->
           <source
             media="(max-width: 470px)"
             srcset="./blocks/main/images/main-mobile.png"
@@ -94,7 +97,7 @@
             class="promo-card__image"
           />
         </picture>
-
+        <!-- TODO: есть проблемы с наименованием по БЭМ, пропишу в PR -->
         <div class="promo-card__text-wrapper">
           <h2 class="promo-card__title">
             We are a high-level data storage bank
